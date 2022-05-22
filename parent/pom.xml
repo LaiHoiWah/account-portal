@@ -27,7 +27,6 @@
         <meowu.commons.version>0.0.1</meowu.commons.version>
         <meowu.account-client.version>0.0.1</meowu.account-client.version>
         <springboot.starter-parent.version>2.5.6</springboot.starter-parent.version>
-        <springcloud.dependencies.version>2020.0.2</springcloud.dependencies.version>
         <springcloud.starter-parent.version>2020.0.2</springcloud.starter-parent.version>
     </properties>
 
