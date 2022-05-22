@@ -7,18 +7,18 @@
     <modelVersion>4.0.0</modelVersion>
     <name>account-service</name>
     <groupId>com.meowu.account.portal</groupId>
-    <artifactId>account-service</artifactId>
+    <artifactId>service</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <parent>
         <groupId>com.meowu.account.portal</groupId>
-        <artifactId>account-parent</artifactId>
+        <artifactId>parent</artifactId>
         <version>0.0.1</version>
     </parent>
 
     <properties>
-        <project.name>account-client</project.name>
+        <project.name>account-service</project.name>
         <project.jdk.version>11</project.jdk.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -85,7 +85,12 @@
 
         <dependency>
             <groupId>com.meowu.account.portal</groupId>
-            <artifactId>account-client</artifactId>
+            <artifactId>client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.meowu.plugins</groupId>
+            <artifactId>mybatis</artifactId>
         </dependency>
 
         <!-- test -->
